@@ -1,0 +1,20 @@
+{
+    "window_width": 400,
+    "window_height": 250,
+    "commands_list": [
+        {
+            "name": "name1",
+            "caption": "Проверить наличие файлов в архиве",
+            "command": "start_exe",
+            "param": "C:\\Windows\\System32\\notepad.exe D:\\tmp\\tmp.txt",
+            "close": true
+        },
+        {
+            "name": "name2",
+            "caption": "Открыть проект/задачу/папку",
+            "command": "start_exe",
+            "param": "d:\\ProgramData\\utilities\\OpenTaskOrFolder\\main.exe",
+            "close": true
+        }
+    ]
+}
